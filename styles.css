@@ -12,11 +12,11 @@
 }
 
 #title{
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: "McLaren", cursive;
   font-weight: 200;
 }
 
-#note-box{
-  
+.input-box{
+  align-items: center;  
 }
