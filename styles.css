@@ -17,6 +17,9 @@
   font-weight: 200;
 }
 
-.input-box{
-  align-items: center;  
+.Footer{
+  position: relative;
+  top: 450px;
+  left: 300px;
+
 }
