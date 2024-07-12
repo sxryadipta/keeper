@@ -7,6 +7,7 @@
 .Header{
   background-color: #229ef1;
   padding: 16px 32px;
+  width: 100%;
   
 
 }
@@ -21,5 +22,6 @@
   position: relative;
   top: 450px;
   left: 300px;
+  opacity: 30%;
 
 }
