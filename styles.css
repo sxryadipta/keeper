@@ -12,7 +12,7 @@
 
 }
 
-#title{
+#Title{
   color: rgb(255, 255, 255);
   font-family: "McLaren", cursive;
   font-weight: 200;
@@ -20,8 +20,13 @@
 
 .Footer{
   position: relative;
-  top: 450px;
-  left: 300px;
+  top: 72vh;
+  left: 35lh;
   opacity: 30%;
+}
 
+
+#Create{
+  font-family: "McLaren", cursive;
+  background-color: blueviolet;
 }
