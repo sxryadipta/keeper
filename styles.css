@@ -1,27 +1,24 @@
 *{
   padding: 0;
   margin: 0
-
 }
 
-.Header{
+.header{
   background-color: #229ef1;
   padding: 16px 32px;
   width: 100%;
-  
-
 }
 
-#Title{
+#title{
   color: rgb(255, 255, 255);
   font-family: "McLaren", cursive;
   font-weight: 200;
 }
 
-.Footer{
-  position: relative;
-  top: 72vh;
-  left: 35lh;
+.footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
   opacity: 30%;
 }
 
@@ -32,7 +29,7 @@
 }
 
 /* CSS */
- #Create{
+ #create{
   appearance: button;
   backface-visibility: hidden;
   background-color: #229ef1;
@@ -58,13 +55,35 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 240px;
 }
 
-#Create:disabled {
+#create:disabled {
   cursor: default;
 }
 
-#Create:focus {
+#create:focus {
   box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+.create-area {
+  padding-block: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+
+.create-area__textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.create-area__button {
+  border: none;
+  color: #fff;
+  background-color: #229ef1;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
 }
