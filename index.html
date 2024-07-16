@@ -10,24 +10,27 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <div class="Header">
-    <header>
-      <h1 id="Title">Keeper</h1>
-    </header>
-  </div>
-
-
-  <div class="container">
-    <button id="Create">
+  <!-- Header -->
+  <header class="header">
+    <h1 id="title">Keeper</h1>
+  </header>
+  
+    <!-- Main Content -->
+  <main class="container">
+    <button id="create">
       Create Notes
     </button>
-  </div>
-  
-  <div>
-    <footer>
-      <p class="Footer">&copy; <span id="year">currentYear </span> &nbsp; All rights reserved.</p>
-    </footer>
-  </div>
+    <!-- The textarea goes here -->
+     <div class="create-area" id="create-area">
+      
+     </div>
+  </main>
+
+  <section class="notes" id="notes"></section>
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer__content">&copy; <span id="year">currentYear </span> &nbsp; All rights reserved.</p>
+  </footer>
   <script src="./index.js"></script>
 </body>
 </html>
