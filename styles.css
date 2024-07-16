@@ -84,6 +84,11 @@ body{
 .create-area__textarea {
   width: 100%;
   padding: 0.5rem;
+  background: #C8ACD6;
+  font-family: "McLaren", cursive; 
+  border-radius: 6px;
+  border-color: #433D8B;
+  box-shadow: 1px 1px;
 }
 
 .create-area__button {
